@@ -14,6 +14,7 @@ import os
 import json
 import re
 import requests
+import threading
 
 import errors as E
 
@@ -27,7 +28,7 @@ REQUIRED_KEYS = ["recommended_cities", "weather", "events", "reason"]
 
 
 def _call_llm(prompt: str) -> str:
-    """LLM에 프롬프트를 POST하고 응답 텍스트를 반환한다."""
+    """LLM에 프롬프트를 POST하고 응답 텍스트를 반환한다. 12초 timeout."""
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY 미설정")
@@ -36,16 +37,34 @@ def _call_llm(prompt: str) -> str:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"response_mime_type": "application/json"},
     }
-    resp = requests.post(
-        GEMINI_URL,
-        headers={"Content-Type": "application/json"},
-        params={"key": api_key},
-        json=payload,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    return data["candidates"][0]["content"]["parts"][0]["text"]
+    
+    result = {"data": None, "error": None}
+    
+    def _post():
+        try:
+            resp = requests.post(
+                GEMINI_URL,
+                headers={"Content-Type": "application/json"},
+                params={"key": api_key},
+                json=payload,
+                timeout=10,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            result["data"] = data["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            result["error"] = e
+    
+    thread = threading.Thread(target=_post, daemon=True)
+    thread.start()
+    thread.join(timeout=12)  # 12초 대기
+    
+    if result["error"]:
+        raise result["error"]
+    if result["data"] is None:
+        raise TimeoutError("LLM API 응답 시간 초과 (12초)")
+    
+    return result["data"]
 
 
 def _extract_json(text: str) -> dict:

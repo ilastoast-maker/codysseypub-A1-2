@@ -10,6 +10,7 @@ LLM 본문 생성이 실패해도 로컬 폴백 템플릿으로 리포트를 완
 import os
 
 import llm_client
+import errors as E
 
 
 def _restaurants_md(restaurants: list) -> str:
@@ -71,8 +72,7 @@ def build_report(date: str, rec: dict, restaurants_by_city: dict, errors: list) 
     try:
         body = llm_client.generate_report_body(date, rec, restaurants_by_city)
     except Exception as e:
-        from errors import add_error
-        add_error(errors, "llm_report", "NETWORK_ERROR", f"리포트 생성 실패, 폴백 사용: {e}")
+        E.add_error(errors, "llm_report", "NETWORK_ERROR", f"리포트 생성 실패, 폴백 사용: {e}")
         body = _fallback_body(date, rec, restaurants_by_city)
 
     return f"{body.rstrip()}\n\n## 오류 요약(errors)\n{_errors_md(errors)}\n"
