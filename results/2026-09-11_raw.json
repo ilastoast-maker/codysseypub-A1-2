@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-11",
+  "recommendation": {
+    "recommended_cities": [
+      "부산",
+      "경주",
+      "전주"
+    ],
+    "weather": "온화하고 쾌청한 가을 날씨로, 야외 활동하기에 매우 적합합니다. 낮 기온은 20도대 초중반으로 쾌적하며, 습도가 낮아 상쾌함을 느낄 수 있습니다.",
+    "events": [
+      "부산 국제영화제 (예년 기준 9월 말 ~ 10월 초 시작)",
+      "경주 신라문화제 (예년 기준 9월 말 ~ 10월 초 개최)",
+      "전주 비빔밥 축제 (예년 기준 10월 초 개최)"
+    ],
+    "reason": "9월 중순은 국내 여행하기 가장 쾌적한 시기 중 하나로, 무더위가 가시고 청명한 가을 날씨를 만끽하기 좋습니다. 부산은 해변과 도시를 동시에 즐기며 신선한 해산물을 맛보기 좋고, 경주는 천년고도의 유서 깊은 유적지를 쾌적하게 탐방하기에 최적입니다. 전주는 풍부한 미식과 한옥마을의 고즈넉한 정취를 느끼며 전통 문화를 체험하기에 더없이 좋은 계절입니다."
+  },
+  "restaurants_by_city": {
+    "부산": [
+      {
+        "name": "거대곰탕",
+        "address": "부산 해운대구 해운대해변로 163",
+        "category": "음식점 > 한식 > 곰탕",
+        "url": "http://place.map.kakao.com/1211020458",
+        "x": 129.15048603451874,
+        "y": 35.158190714542286
+      },
+      {
+        "name": "금수복국 해운대본점",
+        "address": "부산 해운대구 중동1로43번길 23",
+        "category": "음식점 > 한식 > 해물,생선 > 복어",
+        "url": "http://place.map.kakao.com/8708426",
+        "x": 129.164447392476,
+        "y": 35.1623954243218
+      },
+      {
+        "name": "논골집",
+        "address": "부산 해운대구 해운대해변로209번가길 3",
+        "category": "음식점 > 한식 > 육류,고기 > 족발,보쌈",
+        "url": "http://place.map.kakao.com/13306447",
+        "x": 129.15425184299,
+        "y": 35.1599350812631
+      },
+      {
+        "name": "해운대암소갈비집",
+        "address": "부산 해운대구 해운대해변로 333",
+        "category": "음식점 > 한식 > 육류,고기 > 갈비",
+        "url": "http://place.map.kakao.com/8149130",
+        "x": 129.16646470006606,
+        "y": 35.163113604157466
+      },
+      {
+        "name": "왔다식당",
+        "address": "부산 영도구 하나길 811",
+        "category": "음식점 > 한식 > 찌개,전골",
+        "url": "http://place.map.kakao.com/9291686",
+        "x": 129.0563445058958,
+        "y": 35.094025368019814
+      }
+    ],
+    "경주": [
+      {
+        "name": "황남빵",
+        "address": "경북 경주시 태종로 783",
+        "category": "음식점 > 간식 > 제과,베이커리",
+        "url": "http://place.map.kakao.com/26519092",
+        "x": 129.21364442351,
+        "y": 35.8408398161359
+      },
+      {
+        "name": "정록쌈밥",
+        "address": "경북 경주시 계림로 48",
+        "category": "음식점 > 한식 > 쌈밥",
+        "url": "http://place.map.kakao.com/9935399",
+        "x": 129.2140742142922,
+        "y": 35.83862613742365
+      },
+      {
+        "name": "맷돌순두부",
+        "address": "경북 경주시 북군길 7",
+        "category": "음식점 > 한식 > 두부전문점",
+        "url": "http://place.map.kakao.com/10341223",
+        "x": 129.262849554884,
+        "y": 35.851776927027
+      },
+      {
+        "name": "용산회식당",
+        "address": "경북 경주시 내남면 포석로 112",
+        "category": "음식점 > 한식 > 해물,생선 > 회",
+        "url": "http://place.map.kakao.com/13718224",
+        "x": 129.20592513022132,
+        "y": 35.75159208939731
+      },
+      {
+        "name": "커피플레이스",
+        "address": "경북 경주시 중앙로 18",
+        "category": "음식점 > 카페",
+        "url": "http://place.map.kakao.com/13101482",
+        "x": 129.21179744929205,
+        "y": 35.841436092258704
+      }
+    ],
+    "전주": [
+      {
+        "name": "다가생구이 본점",
+        "address": "전북특별자치도 전주시 완산구 전주객사2길 38-6",
+        "category": "음식점 > 한식 > 육류,고기",
+        "url": "http://place.map.kakao.com/545467105",
+        "x": 127.14102493313383,
+        "y": 35.8185263486436
+      },
+      {
+        "name": "조점례남문피순대",
+        "address": "전북특별자치도 전주시 완산구 풍남문2길 39",
+        "category": "음식점 > 한식 > 순대",
+        "url": "http://place.map.kakao.com/10186580",
+        "x": 127.14696847356655,
+        "y": 35.812624984628115
+      },
+      {
+        "name": "웰빙새알팥죽",
+        "address": "전북특별자치도 전주시 덕진구 팽나무3길 24-28",
+        "category": "음식점 > 한식 > 죽",
+        "url": "http://place.map.kakao.com/12590122",
+        "x": 127.152855686262,
+        "y": 35.8343632277993
+      },
+      {
+        "name": "백일홍",
+        "address": "전북특별자치도 전주시 완산구 현무2길 67",
+        "category": "음식점 > 분식",
+        "url": "http://place.map.kakao.com/14522777",
+        "x": 127.149247360741,
+        "y": 35.8224278885784
+      },
+      {
+        "name": "농가레스토랑행복정거장 전북혁신점",
+        "address": "전북특별자치도 전주시 덕진구 오공로 38",
+        "category": "음식점 > 뷔페 > 한식뷔페",
+        "url": "http://place.map.kakao.com/379528417",
+        "x": 127.05937873762345,
+        "y": 35.8355425947677
+      }
+    ]
+  },
+  "errors": [
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big"
+    },
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA"
+    },
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA"
+    },
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA"
+    }
+  ]
+}

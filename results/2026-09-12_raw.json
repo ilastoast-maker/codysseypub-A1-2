@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-12",
+  "recommendation": {
+    "recommended_cities": [
+      "제주",
+      "강릉",
+      "경주"
+    ],
+    "weather": "쾌청하고 선선한 가을 날씨가 시작되는 시기로, 야외 활동하기 매우 좋습니다. 낮 기온은 20도 중반 정도로 쾌적하며, 일교차가 다소 있을 수 있습니다.",
+    "events": [
+      "지역별 가을꽃 축제",
+      "각 지역 특산물 관련 축제",
+      "문화 유적지 야간 개장 행사 (시기별 상이)"
+    ],
+    "reason": "9월 중순은 여름의 더위가 가시고 가을이 시작되어 쾌적하고 맑은 날씨가 이어지는 최적의 여행 시기입니다. 야외 활동과 풍경 감상에 매우 좋으며, 여름 성수기 인파도 줄어들어 여유로운 여행을 즐길 수 있습니다. 특히 추석 연휴 전이라 이동이 비교적 수월합니다."
+  },
+  "restaurants_by_city": {
+    "제주": [
+      {
+        "name": "맛나식당",
+        "address": "제주특별자치도 서귀포시 성산읍 동류암로 41",
+        "category": "음식점 > 한식 > 해물,생선",
+        "url": "http://place.map.kakao.com/8970084",
+        "x": 126.916078563797,
+        "y": 33.4486008329529
+      },
+      {
+        "name": "은희네해장국 본점",
+        "address": "제주특별자치도 제주시 고마로13길 8",
+        "category": "음식점 > 한식 > 해장국",
+        "url": "http://place.map.kakao.com/21499653",
+        "x": 126.54072499320473,
+        "y": 33.50852103226244
+      },
+      {
+        "name": "어린왕자감귤밭",
+        "address": "제주특별자치도 서귀포시 대정읍 추사로36번길 45-1",
+        "category": "음식점 > 카페",
+        "url": "http://place.map.kakao.com/363468370",
+        "x": 126.281829649556,
+        "y": 33.253298288599
+      },
+      {
+        "name": "청호식당",
+        "address": "제주특별자치도 서귀포시 성산읍 온평관전로 94",
+        "category": "음식점 > 한식",
+        "url": "http://place.map.kakao.com/27268966",
+        "x": 126.90784908179704,
+        "y": 33.41050719942559
+      },
+      {
+        "name": "용담밭담",
+        "address": "제주특별자치도 제주시 서천길 16",
+        "category": "음식점 > 한식",
+        "url": "http://place.map.kakao.com/727076726",
+        "x": 126.510146926148,
+        "y": 33.5011695368784
+      }
+    ],
+    "강릉": [
+      {
+        "name": "강릉부성불고기찜닭 교동택지 본점",
+        "address": "강원특별자치도 강릉시 율곡초교길39번길 16",
+        "category": "음식점 > 한식 > 육류,고기 > 닭요리",
+        "url": "http://place.map.kakao.com/27586424",
+        "x": 128.8802433613894,
+        "y": 37.7652291029009
+      },
+      {
+        "name": "풍호맛뜨락 강릉본점",
+        "address": "강원특별자치도 강릉시 임영로 10",
+        "category": "음식점 > 한식",
+        "url": "http://place.map.kakao.com/125345615",
+        "x": 128.89663993563448,
+        "y": 37.743248753318625
+      },
+      {
+        "name": "참순찰떡방",
+        "address": "강원특별자치도 강릉시 남구길5번길 18-1",
+        "category": "음식점 > 간식 > 떡,한과",
+        "url": "http://place.map.kakao.com/16826307",
+        "x": 128.905318032996,
+        "y": 37.7626984458933
+      },
+      {
+        "name": "형제칼국수",
+        "address": "강원특별자치도 강릉시 강릉대로204번길 2",
+        "category": "음식점 > 한식 > 국수 > 칼국수",
+        "url": "http://place.map.kakao.com/13131970",
+        "x": 128.89309445092806,
+        "y": 37.757879615605844
+      },
+      {
+        "name": "강릉꼬막집 독도네본점",
+        "address": "강원특별자치도 강릉시 옥천로 47",
+        "category": "음식점 > 한식",
+        "url": "http://place.map.kakao.com/112760187",
+        "x": 128.90045722247197,
+        "y": 37.75934295376065
+      }
+    ],
+    "경주": [
+      {
+        "name": "황남빵",
+        "address": "경북 경주시 태종로 783",
+        "category": "음식점 > 간식 > 제과,베이커리",
+        "url": "http://place.map.kakao.com/26519092",
+        "x": 129.21364442351,
+        "y": 35.8408398161359
+      },
+      {
+        "name": "정록쌈밥",
+        "address": "경북 경주시 계림로 48",
+        "category": "음식점 > 한식 > 쌈밥",
+        "url": "http://place.map.kakao.com/9935399",
+        "x": 129.2140742142922,
+        "y": 35.83862613742365
+      },
+      {
+        "name": "맷돌순두부",
+        "address": "경북 경주시 북군길 7",
+        "category": "음식점 > 한식 > 두부전문점",
+        "url": "http://place.map.kakao.com/10341223",
+        "x": 129.262849554884,
+        "y": 35.851776927027
+      },
+      {
+        "name": "용산회식당",
+        "address": "경북 경주시 내남면 포석로 112",
+        "category": "음식점 > 한식 > 해물,생선 > 회",
+        "url": "http://place.map.kakao.com/13718224",
+        "x": 129.20592513022132,
+        "y": 35.75159208939731
+      },
+      {
+        "name": "커피플레이스",
+        "address": "경북 경주시 중앙로 18",
+        "category": "음식점 > 카페",
+        "url": "http://place.map.kakao.com/13101482",
+        "x": 129.21179744929205,
+        "y": 35.841436092258704
+      }
+    ]
+  },
+  "errors": [
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big"
+    },
+    {
+      "step": "llm_report",
+      "type": "NETWORK_ERROR",
+      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big"
+    }
+  ]
+}
