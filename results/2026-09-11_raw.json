@@ -146,7 +146,7 @@
     {
       "step": "llm_report",
       "type": "NETWORK_ERROR",
-      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big"
+      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=<REDACTED_GEMINI_API_KEY>"
     },
     {
       "step": "llm_report",
@@ -166,7 +166,7 @@
     {
       "step": "llm_report",
       "type": "NETWORK_ERROR",
-      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big"
+      "message": "리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=<REDACTED_GEMINI_API_KEY>"
     }
   ]
 }
