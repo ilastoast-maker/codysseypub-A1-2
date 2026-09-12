@@ -76,3 +76,4 @@
 - [llm_report] NETWORK_ERROR: 리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA
 - [llm_report] NETWORK_ERROR: 리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA
 - [llm_report] NETWORK_ERROR: 리포트 생성 실패, 폴백 사용: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6K-HZ2VFDEmqGuktJ-V_UqBlO3SGP2c63YgkMEwPTgoDA
+- [llm_report] NETWORK_ERROR: 리포트 생성 실패, 폴백 사용: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6IDfFolUh6xU6zX-V6t9sfI4SXLK0XrwEMxbe4kaj9Big
